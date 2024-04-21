@@ -1,0 +1,17 @@
+Học viên thực hiện các thao tác lọc và sắp xếp dữ liệu về Euro 2012 theo những yêu cầu sau:
+Tạo data frame euro12 từ dữ liệu trên. In euro2: type, shape, danh sách các cột
+1. In giá trị cột Goals
+2. Có bao nhiêu đội tham gia Euro2012?
+3. In thông tin của Euro2012
+4. Tạo 1 data frame mới từ euro12 có tên là discipline chỉ chứa 3 cột 'Team', 'Yellow Cards', 'Red Cards'
+5. Sắp xếp discipline giảm dần theo 2 cột 'Red Cards', 'Yellow Cards'
+6. a) Tính trung bình Yellow Cards
+b) Lọc các đội đã ghi hơn 6 bàn thắng
+7. In các đội mà tên bắt đầu bằng 'G' (gợi ý: dùng str.startswith())
+8. In 7 cột đầu của euro12
+9. In tất cả các cột, trừ 3 cột cuối
+10. In các cột Team, Goals, Shooting Accuracy, Yellow Cards, Red Cards
+11. In các cột chỉ hiển thị 'Team','Shooting Accuracy' từ 'England', 'Italy', 'Russia'
+
+https://drive.google.com/file/d/1upPNDcXk4YuIhHiN4ISYScQY_37U9IZq/view
+https://drive.google.com/file/d/1ua5yBIM0AypBVnM2tRxcsDYO5mHJz8PC/view
