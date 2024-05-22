@@ -1,0 +1,16 @@
+drinks.csv là tập tin cung cấp dữ liệu về tình hình tiêu thụ rượu bia ở các quốc gia theo từng châu lục.
+
+Hãy hoàn tất file đính kèm cùng các yêu cầu sau:
+1. Đọc dữ liệu từ tập tin drinks.csv với index_col là cột đầu tiên của dữ liệu, và lưu vào biến drink.
+Cho biết kiểu dữ liệu (type), kích thước (shape) của drink,
+Hiển thị tên các cột (columns) của drink,
+Xem 5 dòng dữ liệu đầu tiên (head) và cuối cùng (tail) của drink
+2. Cho biết số lượng bia tiêu thụ trung bình ở mỗi châu lục
+3. Cho biết thông tin thống kê tổng quát (describe) số lượng rượu vang được tiêu thụ ở mỗi châu lục
+4. Cho biết số lượng các loại bia và rượu tiêu thụ trung bình (mean) ở mỗi châu lục
+5. Cho biết giá trị trung vị (median) cho các loại bia và rượu tiêu thụ ở mỗi châu lục
+6. Cho biết số lượng rượu mạnh (spirit_servings) tiêu thụ trung bình, lớn nhất và nhỏ nhất ở mỗi châu lục
+7. Sắp xếp dữ liệu tăng dần (sort_values) theo số lượng bia tiêu thụ
+Cho biết 5 quốc gia có lượng tiêu thụ bia nhiều nhất,
+Cho biết 5 quốc gia có lượng tiêu thụ bia ít nhất
+

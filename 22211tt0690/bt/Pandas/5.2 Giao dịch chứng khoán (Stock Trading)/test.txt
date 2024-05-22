@@ -1,0 +1,32 @@
+Cho 3 file .csv sau:
+• stocks1.csv : date, symbol, open, high, low, close, volume : chứa thông tin giao dịch chứng khoán các công ty khác nhau
+• stocks2.csv : date, symbol, open, high, low, close, volume : chứa thông tin giao dịch chứng khoán các công ty khác nhau
+• companies.csv : name, employees, headquarters_city, headquarters_state : chứa thông tin về trụ sở và số lượng nhân viên cho một công ty cụ thể
+
+Hãy hoàn tất file đính kèm cùng các yêu cầu sau:
+1. a) Đọc file stocks1.csv => đưa dữ liệu vào stocks1
+Hiển thị 5 dòng dữ liệu đầu và cuối của stocks1
+Cho biết kiểu dữ liệu (dtype) của các cột của stocks1
+Xem thông tin (info) của stocks1
+b) Đọc file stocks2.csv => đưa dữ liệu vào stocks2
+Hiển thị 5 dòng dữ liệu đầu và cuối của stocks2
+Cho biết kiểu dữ liệu (dtype) của các cột của stocks2
+Xem thông tin (info) của stocks2
+c) Đọc file companies.csv => đưa dữ liệu vào companies
+Xem dữ liệu của companies
+Cho biết kiểu dữ liệu (dtype) của các cột của companies
+Xem thông tin (info) của companies
+2. Cho biết trong stocks1 có dữ liệu Null hay không? Nếu có, hãy thay thế với quy tắc sau:
+- Nếu Null cột high thì thay bằng giá trị max trên cột high của mã chứng khoán đó.
+- Nếu Null cột low thì thay bằng giá trị min trên cột low của mã chứng khoán đó.
+3. Tạo dataframe stocks bằng cách gộp stocks1 và stocks2 theo dòng. Xem 15 dòng dữ liệu cuối của stocks.
+4. Tạo dataframe stocks_companies bằng cách gộp stocks và companies.
+Xem 5 dòng dữ liệu đầu của stocks_companies.
+5. Cho biết giá (open, high, low, close) trung bình và volume trung bình của mỗi công ty.
+6. Cho biết giá đóng cửa (close) trung bình, lớn nhất và nhỏ nhất ở mỗi công ty
+7. Tạo cột parsed_time trong stocks_companies bằng cách đổi thời gian sang định dạng DateTime. Cho biết kiểu dữ liệu của cột parsed_time. Hiển thị 5 dòng dữ liệu đầu của stocks_companies
+8. Thêm cột result, nếu giá 'close' > 'open' thì cột result có giá trị 'up', ngược lại 'down'.
+
+
+https://drive.google.com/file/d/1gHjfjXeP4aeYsp0hl-Xbwpo2Gcap-PJZ/view
+https://drive.google.com/file/d/1k8qCZUGVJoaPYUGvtpp9zfCgjm4BKipO/view
